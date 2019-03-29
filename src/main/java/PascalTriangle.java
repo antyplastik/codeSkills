@@ -43,7 +43,7 @@ public class PascalTriangle {
             }
 
             prev = actual;
-            result = result + getLine(prev, endLineRegex);
+//            result = result + getLine(prev, endLineRegex);
             resultList.add(getLine(prev,endLineRegex));
         }
 
